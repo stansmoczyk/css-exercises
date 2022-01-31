@@ -1,0 +1,18 @@
+p {
+background-color: pink;
+color: black;
+font font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#one {
+    color: blue;
+    font-size: 36px;
+}
+#two {
+    background-color: lightgreen;
+    font-size: 24px;
+    font: bold;
+}
+#three {
+    font-size: 24px;
+}
