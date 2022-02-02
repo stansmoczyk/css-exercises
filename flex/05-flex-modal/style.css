@@ -21,6 +21,18 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+
+}
+
+.header {
+  font-size: large;
+  font-weight: bold;
+}
 
 .icon {
   color: royalblue;
@@ -48,6 +60,14 @@ body {
   justify-content: center;
 }
 
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
 button {
   padding: 8px 16px;
   border-radius: 8px;
@@ -63,4 +83,12 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.buttons {
+  display: flex;
+  align-items:  flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  border: 10px;
 }
